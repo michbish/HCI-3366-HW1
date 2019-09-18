@@ -1,7 +1,7 @@
 # HCI3366HW1
 
-![picture 1](/assets/20190911_205720766_iOS.png)
+![Elevator Outside](/assets/Elevator_Outside.png)
 
-![picture 1](/assets/20190911_205738697_iOS.jpg)
+![Elevator Inside](/assets/Elevator_Inside.jpg)
 
-![picture 1](/assets/20190911_205818845_iOS.jpg)
+![Elevator Video](/assets/20190911_205824000_iOS.mov)
