@@ -8,11 +8,11 @@
 
 [Demo page](https://michbish.github.io/HCI-3366-HW1/demo)
 
-[Elevator Picture](https://github.com/michbish/HCI-3366-HW1/blob/master/assets/Elevator_Outside.jpg)
+[Elevator Picture](https://github.com/michbish/HCI-3366-HW1/blob/master/assets/Elevator.jpg)
 
 [Elevator Gif](https://github.com/michbish/HCI-3366-HW1/blob/master/assets/Elevator.gif)
 
-[Elevator Interface Sketch](https://github.com/michbish/HCI-3366-HW1/blob/master/assets/rough_sketch.png)
+[Elevator Interface Sketch](https://github.com/michbish/HCI-3366-HW1/blob/master/assets/rough_sketch.PNG)
 
 ---
 ### Part 1
@@ -109,7 +109,7 @@ Improvements:
 
 - Remove the first row from the top of open/close buttons. This will get rid of any confusion about which one will open the doors. 
 
-![Design Sketch](/assets/rough_sketch.png)
+![Design Sketch](/assets/rough_sketch.PNG)
 
 --- 
 
