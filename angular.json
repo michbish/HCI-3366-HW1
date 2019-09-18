@@ -118,8 +118,15 @@
               "devServerTarget": "HCI3366-HW1:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://michbish.github.io/HCI-3366-HW1/"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "HCI3366-HW1"
 }
