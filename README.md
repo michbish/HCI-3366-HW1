@@ -2,15 +2,15 @@
 
 ### Links
 
-[Presentation page] (https://michbish.github.io/HCI-3366-HW1/)
+[Presentation page](https://michbish.github.io/HCI-3366-HW1/)
 
-[Github repo] (https://github.com/michbish/HCI-3366-HW1)
+[Github repo](https://github.com/michbish/HCI-3366-HW1)
 
-[Demo page] (https://michbish.github.io/HCI-3366-HW1/demo)
+[Demo page](https://michbish.github.io/HCI-3366-HW1/demo)
 
-[Elevator Picture] (https://github.com/michbish/HCI-3366-HW1/blob/feature/new/assets/Elevator_Outside.jpg)
+[Elevator Picture](https://github.com/michbish/HCI-3366-HW1/blob/feature/new/assets/Elevator_Outside.jpg)
 
-[Link Gif] (https://github.com/michbish/HCI-3366-HW1/blob/feature/new/assets/Elevator.gif)
+[Link Gif](https://github.com/michbish/HCI-3366-HW1/blob/feature/new/assets/Elevator.gif)
 
 ---
 
