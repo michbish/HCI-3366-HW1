@@ -12,6 +12,8 @@
 
 [Elevator Gif](https://github.com/michbish/HCI-3366-HW1/blob/feature/new/assets/Elevator.gif)
 
+[Elevator Interface Sketch]()
+
 ---
 ### Part 1
 
@@ -53,7 +55,7 @@ Uses for elevators:
 
     - Moving product such as drinks and snacks for vending machines
 
-- 
+- Yes except for large object movers and hadicapped people as the V floor is ambiguous.
 
 Common sequence of actions:
 
@@ -107,9 +109,12 @@ Improvements:
 
 - Remove the first row from the top of open/close buttons. This will get rid of any confusion about which one will open the doors. 
 
-[Design Sketch]
+![Design Sketch]()
 
 --- 
 
 ### Part 3 
 
+- [Demo page](https://michbish.github.io/HCI-3366-HW1/demo)
+
+- Screen size: 12inch
