@@ -1,1 +1,91 @@
-<p>demo works!</p>
+<div style="padding: 10px;">
+    <table class="table table-borderless" style="width: 100%">
+        <col width="50%">
+        <col width="auto">
+        <tr>
+            <td class="text-center">
+                <div style="border-style: solid; border-color: #007bff; border-width: 8px; border-radius: 25px">
+                    <table class="table table-borderless">
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg" style="width:50%" (click)="changeFloor(4); onFloor[4] = true" *ngIf="!onFloor[4]"><i class="far fa-building"></i> Floor 3</button>
+                                <button type="button" class="btn btn-primary btn-lg" style="width:50%" *ngIf="onFloor[4]"><i class="far fa-building"></i> Floor 3</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg" style="width:50%" (click)="changeFloor(3); onFloor[3] = true" *ngIf="!onFloor[3]"><i class="far fa-building"></i> Floor 2</button>
+                                <button type="button" class="btn btn-primary btn-lg" style="width:50%" *ngIf="onFloor[3]"><i class="far fa-building"></i> Floor 2</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg" style="width:50%" (click)="changeFloor(2); onFloor[2] = true" *ngIf="!onFloor[2]"><i class="far fa-building"></i> Floor 1</button>
+                                <button type="button" class="btn btn-primary btn-lg" style="width:50%" *ngIf="onFloor[2]"><i class="far fa-building"></i> Floor 1</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg" style="width:50%" (click)="changeFloor(1); onFloor[1] = true" *ngIf="!onFloor[1]"><i class="far fa-building"></i> Floor G</button>
+                                <button type="button" class="btn btn-primary btn-lg" style="width:50%" *ngIf="onFloor[1]"><i class="far fa-building"></i> Floor G</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg" style="width:50%" (click)="changeFloor(0); onFloor[0] = true" *ngIf="!onFloor[0]"><i class="far fa-building"></i> Floor B</button>
+                                <button type="button" class="btn btn-primary btn-lg" style="width:50%" *ngIf="onFloor[0]"><i class="far fa-building"></i> Floor B</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="table table-borderless">
+                        <col width="50%">
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg btn-block" (click)="doors()" *ngIf="!openDoors"><i class="fas fa-door-open"></i> Open Door</button>
+                                <button type="button" class="btn btn-primary btn-lg btn-block" *ngIf="openDoors"><i class="fas fa-door-open"></i> Open Door</button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg btn-block"(click)="doorClose()" *ngIf="!closeDoors"><i class="fas fa-door-closed"></i> Close Door</button>
+                                <button type="button" class="btn btn-primary btn-lg btn-block" *ngIf="closeDoors"><i class="fas fa-door-closed"></i> Close Door</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg btn-block"><i class="far fa-bell"></i> Alarm</button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg btn-block"><i class="far fa-stop-circle"></i> Run Stop</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg btn-block"><i class="fas fa-phone"></i> Call for Assistance/Help</button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-outline-primary btn-lg btn-block"><i class="fas fa-phone-slash"></i> Call Cancel</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td class="text-center">
+                <div style="font-size: 16px;">
+                    <table class="table table-borderless bg-primary" style="width: 100px; height: 45px; border-radius: 10px; margin-top: 45px; margin-left: 25px">
+                        <tr>
+                            <td class="text-left" style="color: white; font-size: 30px">
+                                <i *ngIf="moving == true">
+                                    <i class="fas fa-arrow-up" *ngIf="up == true"></i>
+                                    <i class="fas fa-arrow-down" *ngIf="down == true"></i>
+                                </i>
+                            </td>
+                            <td class="text-right" style="color: white; font-size: 30px">
+                                {{ display }}
+                            </td>    
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</div>
